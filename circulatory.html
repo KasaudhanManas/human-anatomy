@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnatomyMaster | Circulatory System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><i class="fas fa-brain"></i> AnatomyMaster</div>
+    <nav class="nav-bar">
+      <a href="index.html" class="nav-btn"><i class="fas fa-home"></i> Home</a>
+      <a href="skeletal.html" class="nav-btn"><i class="fas fa-bone"></i> Skeletal</a>
+      <a href="muscular.html" class="nav-btn"><i class="fas fa-dumbbell"></i> Muscular</a>
+      <a href="circulatory.html" class="nav-btn active"><i class="fas fa-heart"></i> Circulatory</a>
+      <a href="nervous.html" class="nav-btn"><i class="fas fa-brain"></i> Nervous</a>
+      <a href="quiz.html" class="nav-btn"><i class="fas fa-question-circle"></i> Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title"><i class="fas fa-heart"></i> Circulatory system</h1>
+    <div class="system-container">
+      <div class="diagram-box">
+        <svg viewBox="0 0 100 130" class="anatomy-svg">
+          <path class="anatomy-part" data-part="heart" d="M45 40 Q35 25 20 35 Q15 48 30 60 Q45 72 50 75 Q55 72 70 60 Q85 48 80 35 Q65 25 55 40 Q52 36 50 36 Q48 36 45 40" fill="#d65f5f" stroke="#941e1e" />
+          <path class="anatomy-part" data-part="aorta" d="M48 40 Q52 28 62 22 L64 18" stroke="#a13232" stroke-width="4" fill="none" />
+          <path class="anatomy-part" data-part="pulmonary-artery" d="M44 44 Q38 30 30 28" stroke="#b23b3b" stroke-width="3" fill="none" />
+          <line class="anatomy-part" data-part="superior-vena-cava" x1="52" y1="36" x2="68" y2="22" stroke="#7a2e2e" stroke-width="3" />
+          <line class="anatomy-part" data-part="inferior-vena-cava" x1="50" y1="60" x2="60" y2="80" stroke="#7a2e2e" stroke-width="3" />
+        </svg>
+        <p class="diagram-caption">Click any part to learn more</p>
+      </div>
+      <div class="info-panel">
+        <div id="circulatory-info" class="part-info">
+          <span class="info-label">selected structure</span>
+          <p id="circulatory-part-name" class="part-name">❤️ Heart</p>
+          <p id="circulatory-part-desc" class="part-desc">Click a part on the diagram.</p>
+        </div>
+        <div class="quick-facts">
+          <h3>Quick facts</h3>
+          <ul>
+            <li>Heart beats ~100,000 times/day</li>
+            <li>Blood vessels: 60,000 miles</li>
+            <li>Blood volume: 5‑6 liters</li>
+            <li>Three types: arteries, veins, capillaries</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 AnatomyMaster — learn by exploration</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

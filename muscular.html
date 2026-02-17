@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnatomyMaster | Muscular System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><i class="fas fa-brain"></i> AnatomyMaster</div>
+    <nav class="nav-bar">
+      <a href="index.html" class="nav-btn"><i class="fas fa-home"></i> Home</a>
+      <a href="skeletal.html" class="nav-btn"><i class="fas fa-bone"></i> Skeletal</a>
+      <a href="muscular.html" class="nav-btn active"><i class="fas fa-dumbbell"></i> Muscular</a>
+      <a href="circulatory.html" class="nav-btn"><i class="fas fa-heart"></i> Circulatory</a>
+      <a href="nervous.html" class="nav-btn"><i class="fas fa-brain"></i> Nervous</a>
+      <a href="quiz.html" class="nav-btn"><i class="fas fa-question-circle"></i> Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title"><i class="fas fa-dumbbell"></i> Muscular system</h1>
+    <div class="system-container">
+      <div class="diagram-box">
+        <svg viewBox="0 0 100 130" class="anatomy-svg">
+          <path class="anatomy-part" data-part="pectorals" d="M35 30 L28 42 L45 38 L55 38 L72 42 L65 30" fill="#cc9f8a" stroke="#823e2a" />
+          <ellipse class="anatomy-part" data-part="left-biceps" cx="28" cy="48" rx="5" ry="9" fill="#c08162" stroke="#823e2a" />
+          <ellipse class="anatomy-part" data-part="right-biceps" cx="72" cy="48" rx="5" ry="9" fill="#c08162" stroke="#823e2a" />
+          <rect class="anatomy-part" data-part="abdominals" x="42" y="52" width="16" height="20" fill="#bc7f5e" stroke="#823e2a" rx="2" />
+          <polygon class="anatomy-part" data-part="left-quad" points="32,74 26,100 38,100 42,80" fill="#bb7357" stroke="#823e2a" />
+          <polygon class="anatomy-part" data-part="right-quad" points="68,74 74,100 62,100 58,80" fill="#bb7357" stroke="#823e2a" />
+          <path class="anatomy-part" data-part="trapezius" d="M38 18 L45 28 L55 28 L62 18" fill="#b98367" stroke="#823e2a" />
+        </svg>
+        <p class="diagram-caption">Click any muscle to learn more</p>
+      </div>
+      <div class="info-panel">
+        <div id="muscular-info" class="part-info">
+          <span class="info-label">selected muscle</span>
+          <p id="muscular-part-name" class="part-name">💪 Muscle</p>
+          <p id="muscular-part-desc" class="part-desc">Click a muscle on the diagram.</p>
+        </div>
+        <div class="quick-facts">
+          <h3>Quick facts</h3>
+          <ul>
+            <li><strong>600+ skeletal muscles</strong></li>
+            <li>Muscles make up 40% of body weight</li>
+            <li>Three types: skeletal, cardiac, smooth</li>
+            <li>Largest muscle: gluteus maximus</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 AnatomyMaster — learn by exploration</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnatomyMaster | Skeletal System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><i class="fas fa-brain"></i> AnatomyMaster</div>
+    <nav class="nav-bar">
+      <a href="index.html" class="nav-btn"><i class="fas fa-home"></i> Home</a>
+      <a href="skeletal.html" class="nav-btn active"><i class="fas fa-bone"></i> Skeletal</a>
+      <a href="muscular.html" class="nav-btn"><i class="fas fa-dumbbell"></i> Muscular</a>
+      <a href="circulatory.html" class="nav-btn"><i class="fas fa-heart"></i> Circulatory</a>
+      <a href="nervous.html" class="nav-btn"><i class="fas fa-brain"></i> Nervous</a>
+      <a href="quiz.html" class="nav-btn"><i class="fas fa-question-circle"></i> Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title"><i class="fas fa-bone"></i> Skeletal system</h1>
+    <div class="system-container">
+      <!-- left: interactive diagram -->
+      <div class="diagram-box">
+        <svg viewBox="0 0 100 130" class="anatomy-svg">
+          <!-- skull -->
+          <circle class="anatomy-part" data-part="skull" cx="50" cy="15" r="6" fill="#d0c0b0" stroke="#6b4f3f" stroke-width="1" />
+          <!-- spine -->
+          <rect class="anatomy-part" data-part="spine" x="47" y="21" width="6" height="35" fill="#b8a28e" stroke="#5a3e2e" rx="2" />
+          <!-- ribcage -->
+          <path class="anatomy-part" data-part="ribcage" d="M38 28 L32 40 L38 38 L38 50 L62 50 L62 38 L68 40 L62 28" fill="#bbaa99" stroke="#5a3e2e" />
+          <!-- left clavicle -->
+          <line class="anatomy-part" data-part="left-clavicle" x1="38" y1="22" x2="28" y2="26" stroke="#8b6f55" stroke-width="2.5" />
+          <!-- right clavicle -->
+          <line class="anatomy-part" data-part="right-clavicle" x1="62" y1="22" x2="72" y2="26" stroke="#8b6f55" stroke-width="2.5" />
+          <!-- left humerus -->
+          <line class="anatomy-part" data-part="left-humerus" x1="30" y1="28" x2="22" y2="45" stroke="#9c7c63" stroke-width="3" />
+          <!-- right humerus -->
+          <line class="anatomy-part" data-part="right-humerus" x1="70" y1="28" x2="78" y2="45" stroke="#9c7c63" stroke-width="3" />
+          <!-- left radius/ulna -->
+          <line class="anatomy-part" data-part="left-forearm" x1="21" y1="46" x2="18" y2="68" stroke="#a58368" stroke-width="2.5" />
+          <!-- right radius/ulna -->
+          <line class="anatomy-part" data-part="right-forearm" x1="79" y1="46" x2="82" y2="68" stroke="#a58368" stroke-width="2.5" />
+          <!-- pelvis -->
+          <polygon class="anatomy-part" data-part="pelvis" points="38,57 28,70 72,70 62,57" fill="#b5957a" stroke="#4f3a2b" />
+          <!-- left femur -->
+          <line class="anatomy-part" data-part="left-femur" x1="35" y1="70" x2="28" y2="97" stroke="#9a7a5f" stroke-width="4" />
+          <!-- right femur -->
+          <line class="anatomy-part" data-part="right-femur" x1="65" y1="70" x2="72" y2="97" stroke="#9a7a5f" stroke-width="4" />
+          <!-- left tibia/fibula -->
+          <line class="anatomy-part" data-part="left-tibia" x1="27" y1="98" x2="22" y2="118" stroke="#826b53" stroke-width="3" />
+          <!-- right tibia/fibula -->
+          <line class="anatomy-part" data-part="right-tibia" x1="73" y1="98" x2="78" y2="118" stroke="#826b53" stroke-width="3" />
+        </svg>
+        <p class="diagram-caption">Click any bone to learn more</p>
+      </div>
+      <!-- right: info panel & quick facts -->
+      <div class="info-panel">
+        <div id="skeletal-info" class="part-info">
+          <span class="info-label">selected structure</span>
+          <p id="skeletal-part-name" class="part-name">🦴 Skeleton</p>
+          <p id="skeletal-part-desc" class="part-desc">Click a bone on the diagram.</p>
+        </div>
+        <div class="quick-facts">
+          <h3>Quick facts</h3>
+          <ul>
+            <li><strong>206 bones</strong> in adult human</li>
+            <li>Axial skeleton: 80 bones</li>
+            <li>Appendicular skeleton: 126 bones</li>
+            <li>Bone is living tissue</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 AnatomyMaster — learn by exploration</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

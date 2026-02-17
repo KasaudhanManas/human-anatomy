@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnatomyMaster | Nervous System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><i class="fas fa-brain"></i> AnatomyMaster</div>
+    <nav class="nav-bar">
+      <a href="index.html" class="nav-btn"><i class="fas fa-home"></i> Home</a>
+      <a href="skeletal.html" class="nav-btn"><i class="fas fa-bone"></i> Skeletal</a>
+      <a href="muscular.html" class="nav-btn"><i class="fas fa-dumbbell"></i> Muscular</a>
+      <a href="circulatory.html" class="nav-btn"><i class="fas fa-heart"></i> Circulatory</a>
+      <a href="nervous.html" class="nav-btn active"><i class="fas fa-brain"></i> Nervous</a>
+      <a href="quiz.html" class="nav-btn"><i class="fas fa-question-circle"></i> Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title"><i class="fas fa-brain"></i> Nervous system</h1>
+    <div class="system-container">
+      <div class="diagram-box">
+        <svg viewBox="0 0 100 130" class="anatomy-svg">
+          <ellipse class="anatomy-part" data-part="cerebrum" cx="50" cy="28" rx="22" ry="14" fill="#c7b5a6" stroke="#5d4b3a" />
+          <ellipse class="anatomy-part" data-part="cerebellum" cx="50" cy="48" rx="14" ry="8" fill="#b39b89" stroke="#5d4b3a" />
+          <rect class="anatomy-part" data-part="brainstem" x="47" y="53" width="6" height="12" fill="#a68973" stroke="#5d4b3a" />
+          <rect class="anatomy-part" data-part="spinal-cord" x="48" y="64" width="4" height="40" fill="#9b826a" stroke="#5d4b3a" />
+          <line class="anatomy-part" data-part="nerve-left" x1="40" y1="60" x2="22" y2="70" stroke="#826e5b" stroke-width="2" />
+          <line class="anatomy-part" data-part="nerve-right" x1="60" y1="60" x2="78" y2="70" stroke="#826e5b" stroke-width="2" />
+        </svg>
+        <p class="diagram-caption">Click any part to learn more</p>
+      </div>
+      <div class="info-panel">
+        <div id="nervous-info" class="part-info">
+          <span class="info-label">selected structure</span>
+          <p id="nervous-part-name" class="part-name">🧠 Brain</p>
+          <p id="nervous-part-desc" class="part-desc">Click a part on the diagram.</p>
+        </div>
+        <div class="quick-facts">
+          <h3>Quick facts</h3>
+          <ul>
+            <li>Brain: ~86 billion neurons</li>
+            <li>Spinal cord: 31 pairs of nerves</li>
+            <li>Cerebrum: largest part</li>
+            <li>Cerebellum: balance & coordination</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 AnatomyMaster — learn by exploration</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnatomyMaster | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><i class="fas fa-brain"></i> AnatomyMaster</div>
+    <nav class="nav-bar">
+      <a href="index.html" class="nav-btn active"><i class="fas fa-home"></i> Home</a>
+      <a href="skeletal.html" class="nav-btn"><i class="fas fa-bone"></i> Skeletal</a>
+      <a href="muscular.html" class="nav-btn"><i class="fas fa-dumbbell"></i> Muscular</a>
+      <a href="circulatory.html" class="nav-btn"><i class="fas fa-heart"></i> Circulatory</a>
+      <a href="nervous.html" class="nav-btn"><i class="fas fa-brain"></i> Nervous</a>
+      <a href="quiz.html" class="nav-btn"><i class="fas fa-question-circle"></i> Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Explore the Human Body</h1>
+      <p>Interactive diagrams, detailed descriptions, and quizzes to master anatomy.</p>
+    </section>
+
+    <section class="system-grid">
+      <div class="system-card" onclick="location.href='skeletal.html';">
+        <i class="fas fa-bone"></i>
+        <h2>Skeletal System</h2>
+        <p>206 bones · structure & protection</p>
+      </div>
+      <div class="system-card" onclick="location.href='muscular.html';">
+        <i class="fas fa-dumbbell"></i>
+        <h2>Muscular System</h2>
+        <p>600+ muscles · movement & support</p>
+      </div>
+      <div class="system-card" onclick="location.href='circulatory.html';">
+        <i class="fas fa-heart"></i>
+        <h2>Circulatory System</h2>
+        <p>Heart · blood vessels · 60,000 miles</p>
+      </div>
+      <div class="system-card" onclick="location.href='nervous.html';">
+        <i class="fas fa-brain"></i>
+        <h2>Nervous System</h2>
+        <p>Brain · spinal cord · nerves</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to test yourself?</h2>
+      <a href="quiz.html" class="cta-btn">Take the Quiz <i class="fas fa-arrow-right"></i></a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 AnatomyMaster — learn by exploration</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

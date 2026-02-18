@@ -47,7 +47,7 @@ anatomy-website/
 Clone or download the repository.
 
 bash
-git clone https://github.com/YOUR-USERNAME/anatomy-website.git
+git clone https://github.com/KasaudhanManas/anatomy-website.git
 Open index.html in any modern web browser.
 
 Navigate using the top menu.

@@ -5,9 +5,6 @@ https://img.shields.io/badge/Interactive-Clickable%2520diagrams%2520%2526%2520Qu
 
 AnatomyMaster is a fully responsive, multi‑page educational website for learning human anatomy. It features clickable SVG diagrams, detailed descriptions, quick facts, and an interactive quiz – all packaged in a modern, visually engaging design.
 
-🔗 Live demo: https://YOUR-USERNAME.github.io/anatomy-website
-(replace with your actual GitHub Pages URL)
-
 ✨ Features
 📚 Five dedicated pages – Home, Skeletal, Muscular, Circulatory, Nervous, and an interactive Quiz.
 
